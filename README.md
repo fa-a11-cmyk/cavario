@@ -185,7 +185,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 📞 Contact
 
-- **Développeur** : [fa-a11-cmyk](https://github.com/fa-a11-cmyk)
+- **Développeur** : Fatma ADEL
 - **Repository** : [https://github.com/fa-a11-cmyk/cavario](https://github.com/fa-a11-cmyk/cavario)
 
 ---
