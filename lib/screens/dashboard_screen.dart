@@ -4,6 +4,7 @@ import '../services/auth_service.dart';
 import 'members_screen.dart';
 import 'events_screen.dart';
 import 'schedule_screen.dart';
+import 'horses_screen.dart';
 import '../widgets/image_widget.dart';
 
 class DashboardScreen extends StatefulWidget {
@@ -21,6 +22,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     const MembersScreen(),
     const EventsScreen(),
     const ScheduleScreen(),
+    const HorsesScreen(),
   ];
 
   @override
@@ -90,6 +92,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
               icon: Icon(Icons.schedule_outlined),
               activeIcon: Icon(Icons.schedule),
               label: 'Planning',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.pets_outlined),
+              activeIcon: Icon(Icons.pets),
+              label: 'Chevaux',
             ),
           ],
         ),
